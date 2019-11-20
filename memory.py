@@ -88,7 +88,6 @@ def readFile():
     grid8Top = str(mins8).zfill(2) + ':' + str(secs8).zfill(2)
     mins10, secs10 = divmod(grid10, 60)
     griid10Top = str(mins10).zfill(2) + ':' + str(secs10).zfill(2)
-    gameData.close()
 
 # Writes score data in pwd for future playing creating a csv file.
 def writeFile():
@@ -97,7 +96,6 @@ def writeFile():
     with open(scoresFile, 'w+', newline='') as gameData:
         nsd = csv.writer(gameData)
         nsd.writerow(data)
-    gameData.close()
 
 # Checks data in a list for which grid game used and checks for previous and makes adjustment if required.
 def topScoresCheck():
