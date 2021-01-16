@@ -2,10 +2,11 @@
 Keep your mind active or challenge others and see how fast you can do it.
 
 This python game uses tkinter and keeps track of your previous scores.
-Enjoy and see how fast you can do it....
+Enjoy and see how fast you can do 4x4, 6x6, 8x8 or 10x10?
 
-Thank you for checking out my Memory Game for your Raspberry Pi.
+Thank you for checking out my Memory Game.
 
+![Game play](gameplay.png)
 
 How to unzip memory.zip via File Manager:
 -----------------------------------------
@@ -20,3 +21,5 @@ On the command line using (example: cd Downloads) to the directory memory.zip is
 then you can enter on the command line enter: ./memory to start playing the Memory Game.
 
 I hope you find the Memory Game fun. Martin Parker.
+
+![10x10 game](game10x10.png)
